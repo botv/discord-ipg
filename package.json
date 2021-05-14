@@ -1,0 +1,19 @@
+{
+  "name": "discord-ipg",
+  "version": "1.0.0",
+  "description": "iPG Discord bot for YC interview practice",
+  "main": "bot.js",
+  "repository": "https://github.com/botv/discord-ipg.git",
+  "author": "Ben Botvinick <benbotvinick@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bot.js",
+    "dev": "nodemon ./bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
